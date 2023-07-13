@@ -1,0 +1,98 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body{display: grid;
+background-color:red ;
+
+}
+
+@keyframes header{
+
+  100%{background-image: url(https://www.xtrafondos.com/wallpapers/playstation-abstracto-8359.jpg);
+  background-size: 100%;
+background-position: center;
+animation-delay: 5s;}
+
+  66%{background-image: url(https://img.freepik.com/vector-premium/juego-patrones-fisuras_118813-11742.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+
+
+33%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ5d5XeIJu13lbE4jLZwDQbCM1ZFr9yJl7eqnVHofNSrDMOg4wMjdnJMBx2QB4SC5iRpA&usqp=CAU);
+background-position: center;
+background-size: 100%;
+}
+
+0%{background-image: url(https://i1.wp.com/www.silviagaliana.com/wp-content/uploads/2013/01/Portada-para-Facebook-Super-Mario.jpg);
+  background-size: 100%;
+  background-position: center;
+  animation-delay: 5s;
+
+}
+
+}
+
+header{display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 50%;
+  align-items: center;
+  padding: 2%;
+  animation-name: header;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  
+}
+
+h1{
+margin: 3%;
+color:white;
+text-shadow:0px 0px 24px
+ white, 0px 0px 24px whitesmoke;}
+
+
+ input{
+   color:white;
+  background-color: inherit;
+border-style: none;
+
+}
+
+input::placeholder{color:white}
+
+p{padding:2%;}
+
+
+button{background-color: inherit;
+color: white;
+border-style: none;
+
+
+
+}
+
+
+nav{padding:0% 5%;
+background-color: inherit;
+}
+
+nav>ul{display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 15%;
+  padding: 2% 5%;
+  margin: 3%;
+  font-size: 120%;
+ color:white;
+ text-shadow:0px 0px 24px  white, 0px 0px 24px whitesmoke;
+
+
+
+
+  
+}
