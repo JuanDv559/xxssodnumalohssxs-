@@ -11,28 +11,24 @@ background-color:red ;
 
 @keyframes header{
 
-  100%{background-image: url(https://www.xtrafondos.com/wallpapers/playstation-abstracto-8359.jpg);
+  100%{background-image: url(./imagenes/playstation-abstracto-8359.webp);
   background-size: 100%;
 background-position: center;
 animation-delay: 5s;}
 
-  66%{background-image: url(https://img.freepik.com/vector-premium/juego-patrones-fisuras_118813-11742.jpg);
+  66%{background-image: url(./imagenes/juego-patrones-fisuras_118813-11742.webp);
     background-position: center;
-    background-size: 100%;
-}
+    background-size: 100%;}
 
 
-33%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ5d5XeIJu13lbE4jLZwDQbCM1ZFr9yJl7eqnVHofNSrDMOg4wMjdnJMBx2QB4SC5iRpA&usqp=CAU);
+33%{background-image: url(./imagenes/images-_3.3_.webp);
 background-position: center;
-background-size: 100%;
-}
+background-size: 100%;}
 
-0%{background-image: url(https://i1.wp.com/www.silviagaliana.com/wp-content/uploads/2013/01/Portada-para-Facebook-Super-Mario.jpg);
+0%{background-image: url(./imagenes/Portada-para-Facebook-Super-Mario.webp);
   background-size: 100%;
   background-position: center;
-  animation-delay: 5s;
-
-}
+  animation-delay: 5s;}
 
 }
 
