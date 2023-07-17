@@ -11,21 +11,21 @@ background-color:red ;
 
 @keyframes header{
 
-  100%{background-image: url(./imagenes/playstation-abstracto-8359.webp);
+  100%{background-image: url();
   background-size: 100%;
 background-position: center;
 animation-delay: 5s;}
 
-  66%{background-image: url(./imagenes/juego-patrones-fisuras_118813-11742.webp);
+  66%{background-image: url();
     background-position: center;
     background-size: 100%;}
 
 
-33%{background-image: url(./imagenes/images-_3.3_.webp);
+33%{background-image: url();
 background-position: center;
 background-size: 100%;}
 
-0%{background-image: url(./imagenes/Portada-para-Facebook-Super-Mario.webp);
+0%{background-image: url();
   background-size: 100%;
   background-position: center;
   animation-delay: 5s;}
