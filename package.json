@@ -1,20 +1,12 @@
 {
   "name": "xxssodnumalohssxs",
   "version": "1.0.0",
-  "description": "[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/xxssodnumalohssxs)",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-<<<<<<< HEAD
-    "nodemon": "^3.0.1"
-=======
-    "http-server": "^14.1.1"
->>>>>>> dbf6aad67e19433ec2955ce4a0dea940174b4b4d
-  }
+  "license": "ISC"
 }
