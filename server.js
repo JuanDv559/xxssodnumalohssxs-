@@ -1,18 +1,24 @@
-/*const exec = require('child_process').exec;
+
+
+const exec = require('child_process').exec;
 const server = exec('http-server -c-1');
 server.stdout.on('data', function (data) {
   if (data.includes('Available on')) {
-    //exec('open http://localhost:8080/index.html'); // Abre el archivo index.html en el navegador predeterminado (MacOS)
-     exec('start http://localhost:8080/index.html'); // Abre el archivo index.html en el navegador predeterminado (Windows)
+      //exec('open http://localhost:8080/index.html'); // Abre el archivo index.html en el navegador predeterminado (MacOS)
+     //exec('start http://localhost:8080/index.html'); // Abre el archivo index.html en el navegador predeterminado (Windows)
+     exec('xdg-open http://localhost:8080/index.html')
   }
   process.stdout.write(data);
 });
-*/
+
+console.log("exito")
+
+/*
 
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 
 const server = http.createServer((req, res) => {
   const filePath = path.join(__dirname, 'index.html');
@@ -32,3 +38,5 @@ server.listen(port, () => {
   console.log(`Servidor corriendo en http://localhost:${port}`);
 });
 
+
+*/
