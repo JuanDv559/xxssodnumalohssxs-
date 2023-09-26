@@ -1,6 +1,13 @@
 {
-  "name": "js",
-  "version": "0.0.0",
-  "private": true,
-  "dependencies": {}
+  "name": "xxssodnumalohssxs",
+  "version": "1.0.0",
+  "description": "[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/xxssodnumalohssxs)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
