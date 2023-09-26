@@ -97,7 +97,7 @@ padding:5%;}
 
 div{height: 100%;
 padding:10%;
-wrap:flex-wrap;
+/*wrap:flex-wrap;*/
 background-color: green; ;}
 
 label~input{background-color:white;
