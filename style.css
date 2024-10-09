@@ -1,121 +1,134 @@
-*{
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
-body{display: grid;
-background-color:red ;
-
+body {
+    display: grid;
+    background-color: red;
 }
 
-@keyframes header{
+@keyframes header {
+    100% {
+        background-image: url(./imagenes/playstation-abstracto-8359.webp);
+        background-size: 100%;
+        background-position: center;
+        animation-delay: 5s;
+    }
 
-  100%{background-image: url(./imagenes/playstation-abstracto-8359.webp);
-  background-size: 100%;
-background-position: center;
-animation-delay: 5s;}
+    66% {
+        background-image: url(./imagenes/juego-patrones-fisuras_118813-11742.webp);
+        background-position: center;
+        background-size: 100%;
+    }
 
-  66%{background-image: url(./imagenes/juego-patrones-fisuras_118813-11742.webp);
-    background-position: center;
-    background-size: 100%;}
+    33% {
+        background-image: url(./imagenes/images-_3.3_.webp);
+        background-position: center;
+        background-size: 100%;
+    }
 
-
-33%{background-image: url(./imagenes/images-_3.3_.webp);
-background-position: center;
-background-size: 100%;}
-
-0%{background-image: url(./imagenes/Portada-para-Facebook-Super-Mario.webp);
-  background-size: 100%;
-  background-position: center;
-  animation-delay: 5s;}
-
+    0% {
+        background-image: url(./imagenes/Portada-para-Facebook-Super-Mario.webp);
+        background-size: 100%;
+        background-position: center;
+        animation-delay: 5s;
+    }
 }
 
-header{display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  font-size: 50%;
-  align-items: center;
-  padding: 2%;
-  animation-name: header;
-  animation-duration: 30s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  
+header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 50%;
+    align-items: center;
+    padding: 2%;
+    animation-name: header;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
-h1{
-margin: 3%;
-color:white;
-text-shadow:0px 0px 24px
- white, 0px 0px 24px whitesmoke;}
-
-
- input{
-   color:white;
-  background-color: inherit;
-border-style: none;
-
+h1 {
+    margin: 3%;
+    color: white;
+    text-shadow:
+        0px 0px 24px white,
+        0px 0px 24px whitesmoke;
 }
 
-input::placeholder{color:white}
-
-p{padding:2%;}
-
-
-button{background-color: inherit;
-color: white;
-border-style: none;
-
-
-
+input {
+    background-color: inherit;
+    border-style: none;
+    
 }
 
-
-nav{padding:0% 5%;
-background-color: inherit;
+#inputHeader {
+    color: white;
+}
+input::placeholder {
+    color: white;
 }
 
-nav>ul{display: flex;
-  list-style: none;
-  justify-content: center;
-  gap: 15%;
-  padding: 2% 5%;
-  margin: 3%;
-  font-size: 120%;
- color:white;
- text-shadow:0px 0px 24px  white, 0px 0px 24px whitesmoke;
-
-  
+p {
+    padding: 2%;
 }
 
-
-main{height:100vh;
-background-color:gray;
-padding:5%;}
-
-div{height: 100%;
-padding:10%;
-/*wrap:flex-wrap;*/
-background-color: green; ;}
-
-label~input{background-color:white;
-width:100%}
-
-
-
-
-button#enviar{background-color:blue;
-margin:5% 0%;
-padding:2.5%;}
-
-
-
-footer{background-color:blue;
-height: 5vh;
-display:flex;
-justify-content:center;
-color:white;
+button {
+    background-color: inherit;
+    color: white;
+    border-style: none;
 }
 
+nav {
+    padding: 0% 5%;
+    background-color: inherit;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 15%;
+    padding: 2% 5%;
+    margin: 3%;
+    font-size: 120%;
+    color: white;
+    text-shadow:
+        0px 0px 24px white,
+        0px 0px 24px whitesmoke;
+}
+
+main {
+    height: 100vh;
+    background-color: gray;
+    padding: 5%;
+}
+
+div {
+    height: 100%;
+    padding: 10%;
+    /*wrap:flex-wrap;*/
+    background-color: green;
+}
+
+label ~ input {
+    background-color: white;
+    width: 100%;
+}
+
+button#enviar {
+    background-color: blue;
+    margin: 5% 0%;
+    padding: 2.5%;
+}
+
+footer {
+    background-color: blue;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
