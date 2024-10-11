@@ -9,10 +9,19 @@
 class Usuario {
     constructor(nombre, email) {}
 }
+let usuarios = [];
 
-let input = document.getElementById("nombre");
+let nombre = document.getElementById("nombre");
+let email = document.getElementById("email");
 
 let btnEnviar = document.getElementById("enviar");
 btnEnviar.addEventListener("click", () => {
-    console.log(input.value);
+    let usuario = new Usuario();
+    (usuario.nombre = nombre.value),
+    
+        (usuario.email = email.value),
+        usuarios.push(usuario);
+    nombre.value = "", email.value = "",
+    console.log(usuarios.length);
+    console.log(usuarios);
 });
